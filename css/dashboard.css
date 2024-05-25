@@ -1,0 +1,168 @@
+/* 
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.table{
+    width: 100%;
+}
+
+.table-30{
+    width: 30%;
+}
+
+.table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+.table tr td{
+    padding: 1%;
+}
+
+/* for admin manage button*/
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+
+.btn-danger{
+    background-color: #ff4757;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-danger:hover{
+    background-color: #ff6b81;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4757;
+}
+
+/* css for menu */
+.menu{
+    text-align: right;
+    background-color: #2d3436;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding:1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#00cec9;
+}
+
+.menu ul li a:hover{
+    color: #81ecec;
+}
+
+/* css for content */
+.content{
+    background-color: whitesmoke;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 19%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for add project image */
+
+
+/* css for footer */
+
+.footer{
+    background-color: #00cec9;
+    color: white;
+}
+
+
+/* CSS for Login */
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+/*css for update profile */
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+.open-button {
+background-color: #70a1ff;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+opacity: 0.8;
+position: fixed;
+border-bottom: 23px;
+right: 28px;
+width: 280px;
+}
+.open-button:hover{
+    color: #1e90ff;
+}
+

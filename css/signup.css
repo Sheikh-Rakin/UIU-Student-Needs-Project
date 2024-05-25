@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand';
+}
+
+.content{
+  background-color: #F4F4F4;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.content .img-container img{
+  margin: 95px 0px 0px 80px;
+}
+
+
+.container{
+  position: relative;
+}
+
+.img-container img{
+  width: 100%;
+}
+
+.login-container{
+  padding: 65px 40px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 78px;
+  background-color: #FFFFFF;
+  width: 788px;
+  height: 1000px;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+.login-container .title h2{
+  font-family: 'Poppins';
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.place-holder {
+  width: 100%;
+  display: flex;
+  background-color: #ECECEC;
+  box-sizing: border-box;
+  padding: 20px 15px 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 620px;
+  height: 40px;
+  padding-bottom: 30px;
+  border: none;
+  background-color: #ECECEC;
+}
+
+.place-holder .logo{
+  padding-right: 15px;
+  padding-left: 10px;
+  padding-top: 8px;
+}
+.place-holder .logo img{
+  height: 40px;
+}
+
+.place-holder .logo .key{
+  height: 25px;
+  margin-left: 8px;
+  margin-top: 8px;
+  padding-right: 5px;
+}
+
+
+.container button{
+  position: absolute;
+  font-family: 'Poppins';
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 90px;
+  width: 40%;
+  height: 50px;
+  background: #6358DC;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  right: 28%;
+}
+
+.container button:hover{
+  background: #453e9a;
+}
+.reg{
+  margin-top: 40px;
+}
+
+.reg p{
+  text-align: center;
+}
+
+.reg p a{
+  text-decoration: none;
+}

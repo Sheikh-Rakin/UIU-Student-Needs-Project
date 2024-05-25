@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    position: relative;
+width: 1920px;
+height: 1025px;
+
+background: #F4F4F4;
+}
+.forget-box{
+    padding-left: 30px;
+}
+.back a{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.back{
+    border-radius: 9px;
+    text-align: center;
+    background-color: blue; 
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.back a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.mail input:hover{
+    cursor: pointer;
+}
+
